@@ -1,0 +1,16 @@
+.selected {
+    background-color: yellow;
+}
+
+/* Визначення розміру комірок таблиці */
+table {
+    border-collapse: collapse;
+    width: 300px; /* Розмір таблиці в пікселях */
+}
+
+table td {
+    width: 60px; /* Розмір комірок в пікселях */
+    height: 60px; /* Ви також можете задати висоту комірок */
+    border: 1px solid #000; /* Границі комірок */
+    text-align: center;
+}
